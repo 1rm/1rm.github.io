@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>初学Java第一天</title>
+      <link href="/2020/03/27/%E5%88%9D%E5%AD%A6Java%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+      <url>/2020/03/27/%E5%88%9D%E5%AD%A6Java%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
+      
+        <content type="html"><![CDATA[<h1 id="—-Java常识"><a href="#—-Java常识" class="headerlink" title="— Java常识"></a><font color="#FF0000">— Java常识</font></h1><h2 id="一、jdk，jre，jvm的关系"><a href="#一、jdk，jre，jvm的关系" class="headerlink" title="一、jdk，jre，jvm的关系"></a>一、jdk，jre，jvm的关系</h2><p><strong>jdk：</strong>开发者工具包<br><strong>jre：</strong>Java运行环境<br><strong>jvm：</strong>Java虚拟机</p><h2 id="二、Java的运行机制"><a href="#二、Java的运行机制" class="headerlink" title="二、Java的运行机制"></a>二、Java的运行机制</h2><p>编写好的Java程序（HelloWrold.java）经过Javac命令来编译成字节码文件（HelloWrold.class）再使用Java命令来加载到JVM（在内存创建出的Java虚拟机）内部解析运行。</p><p>所有程序都是在硬盘加载到内存中才能运行。<br><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/Java%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6.png" alt=""><br><strong><font color="#FF0000">步骤①</font></strong><br><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/%E6%AD%A5%E9%AA%A41.png" alt=""><br><strong><font color="#FF0000">步骤②</font></strong><br><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/%E6%AD%A5%E9%AA%A42.png" alt=""><br><strong><font color="#FF0000">步骤③</font></strong><br><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/%E6%AD%A5%E9%AA%A43.png" alt=""></p><h2 id="三、Java的书写规范"><a href="#三、Java的书写规范" class="headerlink" title="三、Java的书写规范"></a>三、Java的书写规范</h2><p><strong>文件名：</strong>Java文件是以.Java为后缀；</p><p><strong>类名：</strong>类名要和文件名一致，类名的首字母要大写。</p><p><strong>方法：</strong>在类中写方法，方法体写在大括号里，注意一定是成对出现，类和方法之间要有缩进，方法和方法体之间也要有缩进，缩进使用tap键，不要使用空格。</p><p><strong>分号：</strong>分号的出现代表本行代码的结束。</p><p><strong>大括号：</strong>代表界限、类的界限、方法的界限。</p><h2 id="四，Java标识符-代码规范"><a href="#四，Java标识符-代码规范" class="headerlink" title="四，Java标识符-代码规范"></a>四，Java标识符-代码规范</h2><p><strong>1、</strong>在Java语言中，对各种变量，方法和类等要素命名时所使用的字序列就是标识符。<br>       这些标识符有jdk定义好的，也有我们自己开发的时候需要定义的。<br><strong>2、</strong>Java中的标识符由26个英文字母大小写，数字0-9，符号_ $。注意：数字不能开头。<br><strong>3、</strong>Java中是严格区分大小写的。<br><strong>4、</strong>在实际写程序中的过程中定义标识符遵守“见名知意”。比如年龄=age</p><p><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/Java%E6%A0%87%E8%AF%86%E7%AC%A6-%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.png" alt=""></p><h2 id="五，Java中的注释"><a href="#五，Java中的注释" class="headerlink" title="五，Java中的注释"></a>五，Java中的注释</h2><p><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/Java%E4%B8%AD%E7%9A%84%E6%B3%A8%E9%87%8A.png" alt=""></p><h1 id="—-第一个程序：HelloWrold"><a href="#—-第一个程序：HelloWrold" class="headerlink" title="— 第一个程序：HelloWrold"></a><font color="#FF0000">— 第一个程序：HelloWrold</font></h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">class是类</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">hellowrold</span></span>&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">这是类的主方法入口，public static void main(String[] args)方法名是一个固定</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123; </span><br><span class="line"></span><br><span class="line"><span class="comment">//打印输出一句话</span></span><br><span class="line">System.out.println(<span class="string">"hellowrold"</span>); </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//注意String的S和System的S都是大写</span></span><br><span class="line"><span class="comment">//花括号都是成双出现的</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo中Front-matter的说明</title>
       <link href="/2019/12/13/Hexo%E4%B8%ADFront-matter%E7%9A%84%E8%AF%B4%E6%98%8E/"/>
       <url>/2019/12/13/Hexo%E4%B8%ADFront-matter%E7%9A%84%E8%AF%B4%E6%98%8E/</url>
