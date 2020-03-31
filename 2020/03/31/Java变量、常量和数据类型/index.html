@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Markdowpad 2的基本语法 | 1RN&#39;S BLOG</title>
+  <title>Java变量、常量和基本数据类型 | 1RN&#39;S BLOG</title>
   
   
 
@@ -288,15 +288,15 @@
   <section class='meta'>
     
     
-      <a title='Markdowpad 2的基本语法' href='/2019/12/08/Markdowpad-2%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/'><img class='thumbnail' src='https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/markdown.png'></a>
+      <a title='Java变量、常量和基本数据类型' href='/2020/03/31/Java%E5%8F%98%E9%87%8F%E3%80%81%E5%B8%B8%E9%87%8F%E5%92%8C%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/'><img class='thumbnail' src='https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/java.png'></a>
     
     <div class="meta" id="header-meta">
       
         
   
     <h1 class="title">
-      <a href="/2019/12/08/Markdowpad-2%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
-        Markdowpad 2的基本语法
+      <a href="/2020/03/31/Java%E5%8F%98%E9%87%8F%E3%80%81%E5%B8%B8%E9%87%8F%E5%92%8C%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/">
+        Java变量、常量和基本数据类型
       </a>
     </h1>
   
@@ -327,7 +327,7 @@
             <div class="new-meta-item date">
   <a class='notlink'>
     <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-    <p>2019-12-08</p>
+    <p>2020-03-31</p>
   </a>
 </div>
 
@@ -337,9 +337,9 @@
             
   
   <div class='new-meta-item category'>
-    <a href='/categories/Markdowpad/' rel="nofollow">
+    <a href='/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/' rel="nofollow">
       <i class="fas fa-folder-open" aria-hidden="true"></i>
-      <p>Markdowpad</p>
+      <p>编程语言</p>
     </a>
   </div>
 
@@ -377,7 +377,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">976字</span>
+        <span class="post-count">459字</span>
       </span>
     </span>
 
@@ -386,7 +386,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-hourglass-half"></i>
         <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">3分</span>
+        <span class="post-count">1分</span>
       </span>
     </span>
 </div>
@@ -403,120 +403,18 @@
 
     <section class="article typo">
       <div class="article-entry" itemprop="articleBody">
-        <h1 id="一·标题语法"><a href="#一·标题语法" class="headerlink" title="一·标题语法"></a><font color="#FF0000">一·标题语法</font></h1><p>在想要设置为标题的文字前面加#来表示一个#是一级标题，两个#为二级标题，以此类推最高支持六级标题。</p>
-<p>注：标准语法一般在#后面加空格在写文字。</p>
-<p><strong>示例写法：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line"></span><br><span class="line">## 这是二级标题</span><br><span class="line"></span><br><span class="line">### 这是三级标题</span><br><span class="line"></span><br><span class="line">#### 这是四级标题</span><br><span class="line"></span><br><span class="line">##### 这是五级标题</span><br><span class="line"></span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
+        <h1 id="—-变量于常量"><a href="#—-变量于常量" class="headerlink" title="— 变量于常量"></a><font color="#FF0000">— 变量于常量</font></h1><p>变量的概念：程序在运行期间，不断发生变化的量就是变量。<br>常量的概念：程序在运行期间，不发生变化的量就是变量。</p>
+<p><strong><font color="#FF0000">示例：</font></strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HelloWrold</span></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] agrs)</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//定义一个变量，定义了一个整数类型的变量，它的名字是age，值为10</span></span><br><span class="line">		<span class="keyword">int</span> age = <span class="number">10</span>;</span><br><span class="line">		</span><br><span class="line">		System.out.println(age);</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//修改age这个变量的值</span></span><br><span class="line">		age = <span class="number">20</span>;</span><br><span class="line">		System.out.println(<span class="string">"age变化后的值："</span>+ age);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//在输出内容里变量的赋值和符号不需要双引号。</span></span><br></pre></td></tr></table></figure>
 
-<p><u><strong>效果如下：</strong></u></p>
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><hr>
-<h1 id="二·引用语法"><a href="#二·引用语法" class="headerlink" title="二·引用语法"></a><font color="#ff0000">二·引用语法</font></h1><p>如果你想引用一段文字，那就是用大于号&gt;</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;只是一段引用</span><br><span class="line">&gt;这是下一段引用</span><br></pre></td></tr></table></figure>
-<p><u><strong>效果如下</strong></u></p>
-<blockquote>
-<p>这是一段引用<br>这是下一段引用</p>
-</blockquote>
-<hr>
-<h1 id="三·强调语法"><a href="#三·强调语法" class="headerlink" title="三·强调语法"></a><font color="#ff0000">三·强调语法</font></h1><h3 id="①斜体-和-粗体"><a href="#①斜体-和-粗体" class="headerlink" title="①斜体 和 粗体"></a><font color="#ff0000">①</font>斜体 和 粗体</h3><p>让文字倾斜，只需在文字前后加一个*号</p>
-<p>加粗一段文字，只需要在文字前后加两个*号</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">*变斜*</span><br><span class="line">**加粗**</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<p><em>变斜</em><br><strong>加粗</strong></p>
-<hr>
-<h3 id="②下划线"><a href="#②下划线" class="headerlink" title="②下划线"></a><font color="#ff0000">②</font>下划线</h3><p>想要文字加上下划线的话，可以通过使用的html标签来达到下划线的效果</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;u&gt;下划线&lt;u/&gt;</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<p><u>下划线</u></p>
-<hr>
-<h3 id="③删除线"><a href="#③删除线" class="headerlink" title="③删除线"></a><font color="#ff0000">③</font>删除线</h3><p>想要文字加上删除线的话，只需要在文字前后分别加入<code>~</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~删除线~</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<p><del>删除线</del></p>
-<hr>
-<h1 id="四·插入链接"><a href="#四·插入链接" class="headerlink" title="四·插入链接"></a><font color="#ff0000">四·插入链接</font></h1><p>如果你想把一段文字加上链接指向到某个网址，就把文字用中括号围起来[]，然后加上一个小括号()，括号里填上网址即可</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[1RM的博客](https://1RM.site)</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<p><a href="https://1RM.site" target="_blank" rel="noopener">1RM的博客</a></p>
-<hr>
-<h1 id="五·插入图片"><a href="#五·插入图片" class="headerlink" title="五·插入图片"></a><font color="#ff0000">五·插入图片</font></h1><p>插入图片的语法和插入链接很像，就是在前面加了一个叹号!，注意：叹号是英文叹号。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![1RM](https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/bt.png)</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<p><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/bt.png" alt="1RM"></p>
-<hr>
-<h1 id="六·列表"><a href="#六·列表" class="headerlink" title="六·列表"></a><font color="#ff0000">六·列表</font></h1><h3 id="①有序列表"><a href="#①有序列表" class="headerlink" title="①有序列表"></a><font color="#ff0000">①</font>有序列表</h3><p>语法如下，注意：数字后加点. 再空一格写内容。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 把冰箱门打开</span><br><span class="line"></span><br><span class="line">2. 把大象放进去</span><br><span class="line"></span><br><span class="line">3. 关上冰箱门</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<ol>
-<li><p>把冰箱门打开</p>
-</li>
-<li><p>把大象放进去</p>
-</li>
-<li><p>关上冰箱门</p>
-</li>
-</ol>
-<hr>
-<h3 id="②无序列表"><a href="#②无序列表" class="headerlink" title="②无序列表"></a><font color="#ff0000">②</font>无序列表</h3><p>无序列表只需要在文字前面加上减号-就行。（星号*或加号+也可以，看个人喜好，我比较喜欢用减号）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- 把冰箱门打开</span><br><span class="line"></span><br><span class="line">- 把大象放进去</span><br><span class="line"></span><br><span class="line">- 关上冰箱门</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<ul>
-<li><p>把冰箱门打开</p>
-</li>
-<li><p>把大象放进去</p>
-</li>
-<li><p>关上冰箱门</p>
-</li>
-</ul>
-<hr>
-<h1 id="七·分割线"><a href="#七·分割线" class="headerlink" title="七·分割线"></a><font color="#ff0000">七·分割线</font></h1><p>你可以在一行中使用三个以上的星号*或减号-来创建分割线（注意：行内不能有其他东西）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line"></span><br><span class="line">***</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<hr>
-<hr>
-<hr>
-<h1 id="八·代码行和代码块"><a href="#八·代码行和代码块" class="headerlink" title="八·代码行和代码块"></a><font color="#ff0000">八·代码行和代码块</font></h1><h3 id="①代码行"><a href="#①代码行" class="headerlink" title="①代码行"></a><font color="#ff0000">①</font>代码行</h3><p>在一般的段落文字中，可以使用反引号 ` 来标记或插入代码区段。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`一行代码`</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<p><code>一行代码</code></p>
-<hr>
-<h3 id="②代码块"><a href="#②代码块" class="headerlink" title="②代码块"></a><font color="#ff0000">②</font>代码块</h3><ul>
-<li>在需要高亮的代码块的前一行及后一行使用三个反引号 ```（~ 键）</li>
-<li>同时第一行反引号后面，输入代码块所使用的语言，实现代码高亮。</li>
-<li>比如高亮<code>python3</code>代码块：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">(```)python</span><br><span class="line">#!/usr/bin/env python3</span><br><span class="line">print(&quot;Hello, World!&quot;);</span><br><span class="line">(```)</span><br></pre></td></tr></table></figure>
-<p><font color="#ff0000">写时要把（)括号去掉,示范里有（）是为了同代码间的不冲突方便</font></p>
-<p><u><strong>效果如下:</strong></u></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python3</span></span><br><span class="line">print(<span class="string">"Hello, World!"</span>);</span><br></pre></td></tr></table></figure>
-
-
-<hr>
-<h1 id="九·利用-html-标签"><a href="#九·利用-html-标签" class="headerlink" title="九·利用 html 标签"></a><font color="#ff0000">九·利用 html 标签</font></h1><p>-借助 html 可以实现文字样式设置，包括字体、大小、颜色、高亮和底色</p>
-<h1 id="例："><a href="#例：" class="headerlink" title="例："></a><font color="#ff0000">例：</font></h1><h3 id="①改变字体颜色"><a href="#①改变字体颜色" class="headerlink" title="①改变字体颜色"></a><font color="#ff0000">①</font>改变字体颜色</h3><p>利用HTML font 标签</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;font color=&quot;#ff0000&quot;&gt;内容变红色&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<p><font color="#ff0000">内容变成红色</font></p>
-<hr>
-<h3 id="②改变字体黄色高亮"><a href="#②改变字体黄色高亮" class="headerlink" title="②改变字体黄色高亮"></a><font color="#ff0000">②</font>改变字体黄色高亮</h3><p>利用HTML mark 标签</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;mark&gt;内容变成黄色高亮&lt;/mark&gt;</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<p><mark>内容变成黄色高亮</p>
-<hr>
-<h3 id="③使字体居中"><a href="#③使字体居中" class="headerlink" title="③使字体居中"></a><font color="#ff0000">③</font>使字体居中</h3><p>利用HTML center 标签</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># &lt;center&gt;&lt;font color=&quot;#FF0000&quot;&gt;未完待续…… &lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-
-<p><u><strong>效果如下:</strong></u></p>
-<h1 id="未完待续……"><a href="#未完待续……" class="headerlink" title="未完待续…… "></a><center><font color="#FF0000">未完待续…… </font></center></h1>
+<h1 id="—-Java数据类型"><a href="#—-Java数据类型" class="headerlink" title="— Java数据类型"></a><font color="#FF0000">— Java数据类型</font></h1><p>Java的数据类型：基本数据类型（共有8种基本数据类型）和引用数据类型</p>
+<p><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/8%E7%A7%8D%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png" alt=""></p>
+<h3 id="一，数值类型："><a href="#一，数值类型：" class="headerlink" title="一，数值类型："></a>一，数值类型：</h3><p><strong><font color="#FF0000">①整数类型：</font></strong>字节类型（byte），短整型（short），整型（int），长整型（long）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/%E6%95%B4%E6%95%B0%E7%B1%BB%E5%9E%8B.png" alt=""></p>
+<p><strong><font color="#FF0000">②小数类型：</font></strong>单精度（float），双精度（double）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/%E5%B0%8F%E6%95%B0%E7%B1%BB%E5%9E%8B.png" alt=""></p>
+<h3 id="二，布尔类型（boolean）：turn和false"><a href="#二，布尔类型（boolean）：turn和false" class="headerlink" title="二，布尔类型（boolean）：turn和false"></a>二，布尔类型（boolean）：turn和false</h3><h3 id="三，字符类型（char）"><a href="#三，字符类型（char）" class="headerlink" title="三，字符类型（char）"></a>三，字符类型（char）</h3><p><strong><font color="#FF0000">示例：</font></strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo</span></span>&#123;</span><br><span class="line">		<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//定义一个byte类型</span></span><br><span class="line">			<span class="keyword">byte</span> age = <span class="number">127</span>;</span><br><span class="line">			System.out.println(<span class="string">"byte类型："</span>+age);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//定义一个short类型</span></span><br><span class="line">			<span class="keyword">short</span> personCount = <span class="number">1000</span>;</span><br><span class="line">			System.out.println(<span class="string">"short类型："</span>+personCount);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//定义一个int类型</span></span><br><span class="line">			<span class="keyword">int</span> salary = <span class="number">100000</span>;</span><br><span class="line">			System.out.println(<span class="string">"int类型："</span>+salary);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//定义一个long类型，数值后面可以加l（一般不加）</span></span><br><span class="line">			<span class="keyword">long</span> starCount = <span class="number">100000000l</span>;</span><br><span class="line">			System.out.println(<span class="string">"long类型："</span>+starCount);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//定义一个float类型，注意数值后面一定要加f，因为小数值默认为double所以要加f</span></span><br><span class="line">			<span class="keyword">float</span> prise = <span class="number">12.5f</span>;</span><br><span class="line">			System.out.println(<span class="string">"float类型："</span>+prise);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//定义一个double类型</span></span><br><span class="line">			<span class="keyword">double</span> totalprise = <span class="number">24.5</span>;</span><br><span class="line">			System.out.println(<span class="string">"double类型："</span>+totalprise);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//定义一个布尔数据类型</span></span><br><span class="line">			<span class="keyword">boolean</span> istom = <span class="keyword">true</span>;</span><br><span class="line">			System.out.println(<span class="string">"boolean数据类型："</span>+istom);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//定义一个char数据类型,占用两个字节，即char后面跟的只能是个位字母或汉字</span></span><br><span class="line">			<span class="comment">//数值必须要使用英文单引号包围</span></span><br><span class="line">			<span class="keyword">char</span> c = <span class="string">'a'</span>;</span><br><span class="line">			System.out.println(<span class="string">"char数据类型："</span>+c);</span><br><span class="line">	</span><br><span class="line">			</span><br><span class="line">		&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       </div>
       
         <br>
@@ -532,10 +430,10 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-12-13T23:13:23+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-31T09:51:47+08:00">
   <a class='notlink'>
     <i class="fas fa-clock" aria-hidden="true"></i>
-    <p>更新于 2019年12月13日</p>
+    <p>更新于 2020年3月31日</p>
   </a>
 </div>
 
@@ -544,7 +442,7 @@
         
           
   
-  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%AC%94%E8%AE%B0/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>笔记</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Markdowpad/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>Markdowpad</p></a></div>
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Java/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>Java</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>学习</p></a></div>
 
 
         
@@ -557,7 +455,7 @@
       
         <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=https://1rm.github.io/2019/12/08/Markdowpad-2%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/&title=Markdowpad 2的基本语法 | 1RN'S BLOG&pics=https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/cc.png&summary="
+          href="http://connect.qq.com/widget/shareqq/index.html?url=https://1rm.github.io/2020/03/31/Java%E5%8F%98%E9%87%8F%E3%80%81%E5%B8%B8%E9%87%8F%E5%92%8C%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/&title=Java变量、常量和基本数据类型 | 1RN'S BLOG&pics=https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/cc.png&summary="
           
           >
           
@@ -569,7 +467,7 @@
       
         <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://1rm.github.io/2019/12/08/Markdowpad-2%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/&title=Markdowpad 2的基本语法 | 1RN'S BLOG&pics=https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/cc.png&summary="
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://1rm.github.io/2020/03/31/Java%E5%8F%98%E9%87%8F%E3%80%81%E5%B8%B8%E9%87%8F%E5%92%8C%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/&title=Java变量、常量和基本数据类型 | 1RN'S BLOG&pics=https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/cc.png&summary="
           
           >
           
@@ -581,7 +479,7 @@
       
         <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=https://1rm.github.io/2019/12/08/Markdowpad-2%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/&title=Markdowpad 2的基本语法 | 1RN'S BLOG&pics=https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/cc.png&summary="
+          href="http://service.weibo.com/share/share.php?url=https://1rm.github.io/2020/03/31/Java%E5%8F%98%E9%87%8F%E3%80%81%E5%B8%B8%E9%87%8F%E5%92%8C%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/&title=Java变量、常量和基本数据类型 | 1RN'S BLOG&pics=https://cdn.jsdelivr.net/gh/1rm/imghosting/1rm-pic/cc.png&summary="
           
           >
           
@@ -605,36 +503,22 @@
       
           <div class="prev-next">
               
-                  <section class="prev">
-                      <span class="art-item-left">
-                          <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页</h6>
-                          <h4>
-                              <a href="/2019/12/13/Markdown%E7%BC%96%E8%BE%91%E5%99%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/" rel="prev" title="Markdown编辑器快捷键">
-                                
-                                    Markdown编辑器快捷键
-                                
-                              </a>
-                          </h4>
-                          
-                              
-                              <h6 class="tags">
-                                  <a class="tag" href="/tags/Markdownpad/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Markdownpad</a> <a class="tag" href="/tags/%E7%AC%94%E8%AE%B0/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 笔记</a>
-                              </h6>
-                          
-                      </span>
-                  </section>
-              
               
                   <section class="next">
                       <span class="art-item-right" aria-hidden="true">
                           <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
                           <h4>
-                              <a href="/2019/11/26/hello-world/" rel="prev" title="Hello World">
+                              <a href="/2020/03/27/%E5%88%9D%E5%AD%A6Java%E7%AC%AC%E4%B8%80%E5%A4%A9/" rel="prev" title="初学Java第一天">
                                   
-                                      Hello World
+                                      初学Java第一天
                                   
                               </a>
                           </h4>
+                          
+                              
+                              <h6 class="tags">
+                                  <a class="tag" href="/tags/Java/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Java</a> <a class="tag" href="/tags/%E5%AD%A6%E4%B9%A0/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 学习</a>
+                              </h6>
                           
                       </span>
                   </section>
@@ -677,7 +561,7 @@
 
   <script>
     window.subData = {
-      title: 'Markdowpad 2的基本语法',
+      title: 'Java变量、常量和基本数据类型',
       tools: true
     }
   </script>
@@ -840,7 +724,7 @@
 </header>
 
     <div class='content material'>
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一·标题语法"><span class="toc-text">一·标题语法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#这是一级标题"><span class="toc-text">这是一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#这是二级标题"><span class="toc-text">这是二级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#这是三级标题"><span class="toc-text">这是三级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#这是四级标题"><span class="toc-text">这是四级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#这是五级标题"><span class="toc-text">这是五级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#这是六级标题"><span class="toc-text">这是六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二·引用语法"><span class="toc-text">二·引用语法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三·强调语法"><span class="toc-text">三·强调语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#①斜体-和-粗体"><span class="toc-text">①斜体 和 粗体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#②下划线"><span class="toc-text">②下划线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#③删除线"><span class="toc-text">③删除线</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四·插入链接"><span class="toc-text">四·插入链接</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#五·插入图片"><span class="toc-text">五·插入图片</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#六·列表"><span class="toc-text">六·列表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#①有序列表"><span class="toc-text">①有序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#②无序列表"><span class="toc-text">②无序列表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#七·分割线"><span class="toc-text">七·分割线</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#八·代码行和代码块"><span class="toc-text">八·代码行和代码块</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#①代码行"><span class="toc-text">①代码行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#②代码块"><span class="toc-text">②代码块</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#九·利用-html-标签"><span class="toc-text">九·利用 html 标签</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#例："><span class="toc-text">例：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#①改变字体颜色"><span class="toc-text">①改变字体颜色</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#②改变字体黄色高亮"><span class="toc-text">②改变字体黄色高亮</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#③使字体居中"><span class="toc-text">③使字体居中</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#未完待续……"><span class="toc-text">未完待续…… </span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#—-变量于常量"><span class="toc-text">— 变量于常量</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#—-Java数据类型"><span class="toc-text">— Java数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#一，数值类型："><span class="toc-text">一，数值类型：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二，布尔类型（boolean）：turn和false"><span class="toc-text">二，布尔类型（boolean）：turn和false</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#三，字符类型（char）"><span class="toc-text">三，字符类型（char）</span></a></li></ol></li></ol></li></ol>
     </div>
   </section>
 
